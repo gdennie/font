@@ -36,10 +36,10 @@ walkdir = "2.3"
 env_logger = { version = "*" }
 memmap = "*"
 
-[patch."https://github.com/s3bk/svg"]
-svg_dom = { path = "../svg/dom" }
-svg_draw = { path = "../svg/draw" }
-svg_text = { path = "../svg/text" }
+# [patch."https://github.com/s3bk/svg"]
+# svg_dom = { path = "../svg/dom" }
+# svg_draw = { path = "../svg/draw" }
+# svg_text = { path = "../svg/text" }
 
-[patch."https://github.com/pdf-rs/font"]
-font = { path = "." }
+# [patch."https://github.com/pdf-rs/font"]
+# font = { path = "." }
